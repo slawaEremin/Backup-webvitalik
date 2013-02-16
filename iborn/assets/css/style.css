@@ -1,0 +1,160 @@
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+body { background-color: #E0EFFC }
+
+.wrap { min-width: 780px; max-width: 1400px; margin: 0 auto }
+
+header { background: #e0effc url(../img/back-head.png) no-repeat left top; margin: 0 auto; height: 252px; position: relative; min-width: 780px; max-width: 1400px }
+
+.logo { position: absolute; left: 2%; top: -4px; width: 23% }
+
+.logo img { max-width: 100% }
+
+.top-banner { position: absolute; left: 25%; bottom: 60px; width: 73%; z-index: 50 }
+
+.top-banner img { max-width: 100% }
+
+nav { height: 75px; background: #f7fbfd url(../img/delimetr.png) repeat-x left 6px; position: absolute; left: 0; top: 177px; width: 100%; max-width: 1400px }
+
+.menu { margin-top: 18px; background: #fff url(../img/delimetr1.png) repeat-x left 45px; height: 57px; overflow: hidden; width: 100% }
+
+.menu li { display: inline; display: inline; float: left; width: 15%; margin: 0 1% 0 0 }
+
+.menu li:first-child { margin-left: 2% }
+
+.menu a { width: 13%; padding: 0 1%; margin: 7px 0 0 0; font: 12px Arial; color: #fff; text-transform: uppercase; height: 36px; display: table-cell; vertical-align: middle; background: url(../img/menu1.png) repeat-x left top; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px; text-align: center; text-shadow: 0 1px 0 #0357AF; text-decoration: none }
+
+.menu a:hover, .menu a.selected { background: url(../img/menu.png) repeat-x left top; text-shadow: 0 1px 0 #AA5474; text-decoration: none }
+
+.lt-ie8 .menu li { float: none; display: inline; margin: 0; width: auto }
+
+.lt-ie8 .menu a { margin: 0 1% 0 0; display: block; width: 13%; float: left }
+
+.lt-ie8 .menu li:first-child a { margin-left: 2% }
+
+.content { width: 100%; background: #e0effc url(../img/border-top.png) repeat-x left top; overflow: hidden; padding-top: 15px }
+
+.column-left { width: 250px; float: left; margin-left: 13px }
+
+.column-right { width: 190px; float: right; margin-right: 13px }
+
+.main { margin: 0 211px 0 272px; border: 5px solid #9CA7B0; position: relative; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px; background-color: #fff; padding: 14px }
+
+.block { border: 5px solid #9CA7B0; margin: 0 0 15px 0; position: relative; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px; background-color: #fff }
+
+.block-title { width: 231px; font: 14px Arial; height: 35px; text-align: center; color: #fff; text-shadow: 0 1px 0 #0D8CF4; padding-top: 13px; position: absolute; background: url(../img/title.png) no-repeat left top; z-index: 10; left: 5px; top: -12px; text-transform: uppercase }
+
+.search { margin: 43px 14px 14px 14px; padding: 0; overflow: hidden }
+
+.text { height: 29px; display: block; width: 190px; line-height: 29px; padding: 0 10px; border: 1px solid #ACB4BB; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; box-shadow: 0 1px 1px #727577 inset; -moz-box-shadow: 0 1px 1px #727577 inset; -webkit-box-shadow: 0 1px 1px #727577 inset; color: #7a7a7a; font-size: 12px }
+
+.text:focus { outline: 0 }
+
+.submit { display: block; font: 14px Arial; width: 84px; margin: 10px auto 0; height: 36px; border: 0; background: url(../img/button1.png) no-repeat left top; color: #fff; text-shadow: 0 1px 0 #0D87F2; text-align: center }
+
+.auth { margin: 43px 14px 14px 14px; padding: 0 }
+
+.auth .text { margin-bottom: 13px }
+
+.auth .dop { overflow: hidden; margin-bottom: 8px }
+
+.auth label { float: left; cursor: pointer; color: #04B1EB; font-size: 12px; padding-top: 10px }
+
+.auth .submit { float: right; margin: 0 }
+
+.delimetr3 { height: 11px; width: 237px; margin-bottom: 5px; background: url(../img/delimetr3.png) repeat-x left top; position: relative; left: -12px }
+
+.auth a { text-decoration: underline; color: #04B1EB; font-size: 12px }
+
+.auth a:hover { text-decoration: none }
+
+.subscribe { margin: 43px 14px 14px 14px; padding: 0 }
+
+.subscribe .radio { overflow: hidden; color: #04B1EB; font-size: 12px; margin-bottom: 5px; display: block }
+
+.submit1, .all-news { display: block; font: 14px Arial; text-decoration: none; line-height: 32px; width: 144px; margin: 10px auto 0; height: 36px; border: 0; background: url(../img/button2.png) no-repeat left top; color: #fff; text-shadow: 0 1px 0 #0D87F2; text-align: center }
+
+.submit1:hover, .all-news:hover { text-decoration: none; color: #fff }
+
+.news { margin: 43px 14px 14px 14px; padding: 0; position: relative }
+
+.news-item { color: #7b7b7b; font-size: 12px }
+
+.news-item .date { color: #F87BA9; font-weight: 700; margin-bottom: 2px }
+
+.news-item a { color: #04B1EB; text-decoration: underline; display: block }
+
+.news-item a:hover { text-decoration: none }
+
+.news .delimetr3 { margin: 10px 0 }
+
+.block-title1 { width: 169px; font: 14px Arial; height: 35px; text-align: center; color: #fff; text-shadow: 0 1px 0 #0D8CF4; padding-top: 13px; position: absolute; background: url(/assets/img/title1.png) no-repeat left top; z-index: 10; left: 5px; top: -12px; text-transform: uppercase }
+
+.basket { margin: 43px 14px 14px 14px; font-size: 14px; color: #7a7a7a; text-align: center; padding-top: 14px; min-height: 60px; position: relative; overflow: hidden; padding-right: 90px; background: url(/assets/img/basket.png) no-repeat right center }
+
+.basket a { color: #04B1EB; text-decoration: underline }
+
+.basket a :hover { text-decoration: none; color: inherit }
+
+.money, .advert { margin: 43px 14px 14px 14px }
+
+.money img, .advert img { max-width: 100% }
+
+.advert-items { margin-bottom: 10px; display: block }
+
+.foot { background-color: #9CA7B0; padding: 10px 15px; font-size: 9px; color: #fff; margin: 0 13px 10px; max-width: 1400px; min-width: 780px }
+
+footer p { margin-bottom: 5px }
+
+.copyright { width: 500px; overflow: hidden; font: bold 12px Arial; text-align: center; margin: 15px auto 0 }
+
+.catalog { width: 100%; position: relative }
+
+.catalog-item { display: inline-block; vertical-align: top; width: 31%; min-height: 180px; margin-right: 2%; background: url(../img/border.png) repeat-y right top; margin-bottom: 15px }
+
+.catalog-item a.title { display: block; color: #04B1EB; margin-top: 5px; font-size: 12px; text-transform: uppercase; text-decoration: underline; text-align: center; padding: 0 10px 0 0 }
+
+.catalog-item a.title:hover { text-decoration: none }
+
+.catalog-item .preview { text-align: center; height: 150px; line-height: 150px; padding: 0 10px }
+
+.catalog-item .preview img { max-width: 100% }
+
+.catalog-item.last { background: 0; margin-right: 0; width: 31% }
+
+.title-pretty { height: 7px; position: relative; margin: 20px 0 45px; background: url(../img/new-line.png) repeat-x left top }
+
+.title-inner { position: absolute; left: 0; top: -10px; width: 231px; height: 48px; color: #fff; text-transform: uppercase; text-align: center; text-shadow: 0 1px 0 #BF587E; line-height: 43px; background: url(/assets/img/new-title.png) no-repeat left top }
+
+.new-item .catalog-item { overflow: hidden }
+
+.new-item .catalog-item a.title { text-transform: none }
+
+.new-item .price { height: 41px; margin-top: 2px; color: #FD659D; font-size: 20px; position: relative }
+
+.new-item .price-item { float: left; width: 100px; line-height: 41px }
+
+.new-item .in-basket { width: 39px; height: 41px; margin-right: 10px; float: right; background: url(../img/basket1.png) no-repeat left top; display: block; text-indent: -9999px }
+
+.lt-ie8 .catalog-item { display: inline; zoom: 1 }
+
+.lt-ie8 .catalog-item a.title { position: relative; zoom: 1 }
+
+.lt-ie8 .catalog-item { width: 30% }
+
+@media only screen and (max-width: 1160px) {
+	header { height: 232px }
+
+	nav { top: 157px }
+
+	.catalog-item a.title { font-size: 10px }
+
+	.new-item .price { font-size: 15px }
+
+	.new-item .price-item { line-height: 1.1 }
+	}
+
+@media only screen and (max-width:960px) {
+	.catalog-item .preview { height: 100px; line-height: 100px }
+
+	.catalog-item { min-height: 130px }
+	}

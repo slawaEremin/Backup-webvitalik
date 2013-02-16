@@ -1,0 +1,120 @@
+/*all layout*/
+body					{background: url('/static/img/back1.jpg') no-repeat center top;}
+.l-globalWidth 			{margin-left: auto;  margin-right: auto;  width: 960px;background-color:#fff; box-shadow:0 0 15px #666; }
+header					{height:200px; overflow: hidden;position: relative; background: url('/static/img/head-border.png') repeat-x left top; }
+	.l-leftHeader		{position: absolute; top:45px; left:25px;}
+	.l-rightHeader		{position:absolute; right:25px; top:45px;}
+
+.l-grid4,
+.l-grid8,
+.l-grid12,
+.l-grid3				{ display: inline; float: left; margin-left: 10px;  margin-right: 10px;}
+.l-gridNews				{ display: inline; float: left; margin-right: 10px;}
+.l-grid4,
+.l-gridNews				{width:300px;}
+.l-grid8				{width:620px;}
+.l-grid12				{width:940px;}
+.l-grid3				{width:220px;}
+.l-footer				{height:120px;overflow: hidden;}
+
+
+/*Header contact*/
+.b-contact				{overflow: hidden; }
+.b-navContact			{list-style: none; overflow: hidden; margin-bottom:6px; }
+.b-navContact			{overflow: hidden;margin:0; padding:0;}
+	.b-contact li		{display: inline;}
+	.b-contact a		{display: block; float:right; margin:0 10px; color:#535353; text-decoration: none; border-bottom: 1px dotted #535353;font-style:italic; font-size: 14px;}
+	.b-contact a:hover,
+	.b-contact .b-contactActive{color:#BA0000; border-color: #BA0000; text-decoration: none;}
+	
+.b-contact div			{background-color:#F1F1F1; font-size:26px; color:#BA0000;padding:10px; display: none;margin-top:10px;float:right; }
+.ie6 .b-contact,
+.ie6 .b-navContact		{zoom:1;}
+
+/*Map site*/
+.b-allSite				{display: block; padding-left:22px; background: url('/static/img/all-site.png') no-repeat left center; font-size: 12px; font-style:italic; color:#BA0000; margin-bottom:18px;}
+.b-mapSite				{margin-bottom:20px;}
+.b-mapSite ul			{list-style-type: none; padding:0; margin:0;}
+	.b-mapSite ul li	{padding:3px 0;}
+	.b-mapSite ul a		{font-size:16px; text-decoration: underline;} 
+	.b-mapSite ul a:hover{color:#535353; text-decoration: none;}	
+		.b-mapSite ul ul{margin-bottom:5px; list-style-type: square; list-style-position: inside;}
+		.b-mapSite ul ul li{margin-left:15px; padding:1px;}	
+		.b-mapSite ul ul a{font-size:12px; }
+
+/*about company*/
+.b-aboutCompany			{background: url('/static/img/district.png') no-repeat left top; min-height: 290px; overflow: hidden;}
+.b-aboutCompany	div		{width:250px;margin-top:40px; line-height: 1.4;  float:right;  padding:10px 20px; background-color:rgba(102,152,189,0.8); color:#fff; font-style: italic; font-size: 12px;}
+.b-aboutCompany	div a	{font-size: 14px; text-decoration: underline;font-weight: bold; display:block;color:#fff;margin-bottom: 10px; }
+.b-aboutCompany	div a:hover{color:#fff;}
+.ie6 .b-aboutCompany div,
+.ie7 .b-aboutCompany div,
+.ie8 .b-aboutCompany div{background-color:#83ABC9;}
+
+/*Tabs news articles*/
+.b-partion				{margin-bottom:25px;}
+.b-partion section		{display: none;}
+.b-partionNav			{list-style: none; overflow: hidden; margin:20px 0 30px 0; padding:0;}
+.b-partionNav li		{display: inline; padding:0;}
+.b-partionNav a			{display:block; float:left; margin-right:40px; color:#336699; font-size: 16px;font-weight: bold; text-decoration: none; border-bottom: 1px dotted #336699;}
+.b-partionNav a:hover,
+.b-partionNav .b-activeTab{color:#535353; border-color:#535353;text-decoration: none;}
+
+.b-partion .b-news		{display: block;}
+.b-itemNews				{margin-bottom: 15px;}
+.b-itemNews	span		{display: block; margin-bottom: 12px;font-size: 12px ; color:#999999;}
+.b-itemNews a			{overflow: hidden; }
+	.b-itemNews img		{float:left; border:none;}
+	.b-itemNews a span	{display: block;margin-left:113px;font-size: 14px; font-weight: bold; color:#336699;}
+	.b-itemNews a:hover	span{color:#535353; text-decoration: none;}
+.ie6 .b-partionNav		{zoom:1;}
+	
+/*section*/
+.b-title				{margin:20px 0 10px; font-size: 16px;}
+.b-section				{margin-bottom:40px;}
+	.b-section h4		{font-size: 15px; line-height: 1.3; margin-bottom:10px;padding-left:45px;min-height: 57px;}
+	.b-section ul		{list-style: none; margin:0; padding:0;}
+	.b-section ul li	{padding: 4px 0;}
+	.b-section a		{padding-left:45px;background: url('/static/img/section-a.png') no-repeat 36px 7px;display: block;  text-decoration:none;  font-size: 11px;color:#666; }
+	.b-section a:hover	{text-decoration: underline;}
+	.b-section .b-sectionAudit		{background: url('/static/img/section2.png') no-repeat left top;}
+	.b-section .b-sectionExpert		{background: url('/static/img/section3.png') no-repeat left top;}
+	.b-section .b-sectionProduct	{background: url('/static/img/section4.png') no-repeat left top;}
+	.b-section .b-sectionFinan		{background: url('/static/img/section1.png') no-repeat left top;}
+	
+/*footer*/
+.b-copyright			{margin:0 10px; border-top:1px solid #6698BD; padding:20px; color:#6698BD;font-size: 11px; }
+
+/*slider*/
+.b-slider					{position: relative;}
+.slides_container 			{ width:620px; height:412px; }
+.slides_container div 		{width:620px; height:412px; display:block;position: relative; }
+.slides_container div span	{position: absolute; right:20px; top:30px; font-size: 18px;  color:#fff; text-align: right;line-height: 1.6;}
+.b-slider .pagination		{list-style: none; margin:10px 0 0 0; padding:0; overflow: hidden; position: absolute; right:0;}	
+.b-slider .pagination li	{display: inline; padding: 0;}
+.b-slider .pagination a		{display: block; text-decoration: none; color:#336699; padding:4px 8px; border:1px solid #336699;margin-left:10px; float:left;}
+.b-slider .pagination a:hover,
+.b-slider .pagination li.current a{text-decoration: none; color:#fff; background-color:#336699;}
+
+
+/*helper*/
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+.clearfix:before,
+.clearfix:after,
+.l-globalWidth:before,
+.l-globalWidth:after 	{  content: '.';  display: block;  overflow: hidden;  visibility: hidden;  font-size: 0;  line-height: 0;  width: 0;  height: 0;}
+.clearfix:after,
+.l-globalWidth:after 	{  clear: both;}
+.clearfix,
+.l-globalWidth 			{  zoom: 1;}
+
+/* ==|== media queries ====================================================== */
+
+@media only screen and (min-width: 480px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}

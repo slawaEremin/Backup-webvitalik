@@ -1,0 +1,5 @@
+xhtml strict
+css3
+ie6+
+jquery
+960gs

@@ -1,0 +1,120 @@
+@import "less/css3.less";
+
+
+header      { height:244px; background: url(/assets/img/head-back.png) repeat-x left top;}
+.head       {position:relative; height:244px; width:992px; margin:0 auto; background: url(/assets/img/head.png) no-repeat left top;}
+.wrap       {margin:0 auto; width:950px; position:relative;}
+.logo       {position:absolute; left:131px ; top: 27px; }
+.subtitle   {position:absolute;font-size: 26px; line-height:1.3; color:#fff; text-shadow:0 1px 2px #469784;  left:294px; top:80px; }
+.subtitle span{position:static; font-size:16px; color:#1D453C; display:block; margin-top:15px;  text-shadow: none;}
+.info-head  {position:absolute; right:34px; top:40px; font-size:14px; color:#fff; text-align:right; }
+.search     {position:absolute; right:34px; top:163px; height:20px; overflow:hidden; width: 190px; background-color: #fff;padding:2px; }
+.search .text{border:none; color:#0F559E; font-size: 14px;  height:20px; line-height:20px; }
+.search .text:focus{border:none; outline: none;}
+.search .submit{float: right; text-indent:-9999px; border:none; width:20px; height:20px; display:block; background: url(/assets/img/search.png) no-repeat left top;}
+.search .no-right{margin-right:25px;height:20px;}
+
+
+nav        {height:20px; position:relative;width:950px; margin:0 auto;}
+.menu       {position:absolute; left:0; top:-23px; overflow:hidden; .box-shadow(0 1px 4px #999); height:67px;width:100%; list-style-type:none; margin:0; padding:30px 0 0 0; background: url(/assets/img/menu.png) repeat-x left top; }
+.menu li    {padding-left: 23px; float:left;padding-right: 18px; }
+.menu li.child{background: url(/assets/img/menu-arrow.png) no-repeat right 6px;}
+.menu a     {font-size: 14px; color:#fff; text-decoration:none; }
+.menu a span {display:block; font-size: 11px; font-style: italic;}
+.menu a:hover{text-decoration:none; color:#fff;}
+
+.breadcrumb     { list-style: none; padding: 12px 20px; background-color:#DEF1ED;overflow:hidden; margin:70px 0 0 0; }
+.breadcrumb a   {font-size: 12px; color:#000; text-decoration:none;}
+.breadcrumb a:hover{text-decoration: none; color:#000;}
+.breadcrumb li  {float:left; padding-right:6px;}
+
+.main           {margin:10px 0 60px;}
+.content        {overflow:hidden;  width:626px; float:left;}
+aside           {float:right;width:300px;}
+.column         {float:left; width:300px; margin-right:20px;}
+.last-column    {margin-right:0;}
+h2.title-page   {font-size: 23px; color:#19518D; border-bottom:1px solid #19518D; margin:0 0 23px  0; line-height:45px; }
+.title-page span{position:relative;}
+.rss            {position:absolute; right:-20px; top:-10px; display:block; height:16px; width:16px; text-indent:-9999px ; background: url(/assets/img/rss.png) no-repeat left top;}
+
+.news           {overflow:hidden;}
+.news-item      {margin-bottom:35px;}
+.news-item .date{ font-size: 18px; color:#32AB8E; position:relative; margin-bottom:12px; }
+.news-item .date span {display:block; position:absolute; left:78px; top:5px; font-size:11px; font-style: italic;  text-decoration:underline; }
+.news-item .title{color:#19518D; text-decoration:underline;display:block; margin-bottom:12px;}
+.news-item .title:hover{text-decoration:none; color:#19518D;}
+.all-items      {  font-size:12px; height:16px; line-height:16px; background: url(/assets/img/line.png) repeat-x left center; overflow:hidden;  }
+.all-items a    {  display:block; float:left;padding-right:20px; background:#fff url(/assets/img/arrow1.png) no-repeat right center; color:#32AB8C;  height:16px; line-height:16px; text-decoration:none;}
+.all-items a:hover{text-decoration:none; color:#32AB8C;}
+.all-items a:hover span{text-decoration:underline;}
+
+aside           {margin-top:25px;}
+.links a        {display:block; font-size: 12px; color:#19518C;margin-bottom:25px; line-height:31px;text-decoration:none;padding-left:55px; }
+.links a:hover  {text-decoration:none; color:#19518C; }
+.links a:hover span{text-decoration:underline;}
+.plans          {background: url(/assets/img/plans.png) no-repeat left center;}
+.reports          {background: url(/assets/img/reports.png) no-repeat left center;}
+.results          {background: url(/assets/img/result.png) no-repeat left center;}
+.zapros         {background: url(/assets/img/zapros.png) no-repeat left center;}
+.links          {margin-bottom:25px;}
+
+.question       {display:block;font:18px Georgia;text-decoration:none; color:#fff; line-height:1.2; margin-bottom:15px; padding:12px 14px;background:#32AB8F url(/assets/img/question.png) no-repeat 225px center; }
+.question:hover {color:#fff; text-decoration:none;}
+.reception      {display:block;font:18px Georgia;text-decoration:none; color:#fff; line-height:1.2; margin-bottom:45px; padding:12px 14px;background:#098734 url(/assets/img/reception.png) no-repeat 225px center; }
+.reception:hover {color:#fff; text-decoration:none;}
+
+.info-place div  {margin-bottom:30px; color:#19518C;padding-left:58px; min-height: 30px;}
+aside h3        {margin:0 0 25px 0; line-height:1.2; color:#32AB8F; font-size: 23px;  }
+.adress-item    {background: url(/assets/img/adress.png) no-repeat left center;}
+.phone-item     {background: url(/assets/img/phone.png) no-repeat left center;}
+.email-item     {background: url(/assets/img/email.png) no-repeat left center;}
+
+footer          {height:291px; background: url(/assets/img/foot.png) repeat-x left top;}
+.banners        {width:100%;  position:absolute; top:25px; left:0;}
+.banners a      {float:left; margin-right:15px; display:block; .box-shadow(1px 2px 4px #08365F)}
+.banners a:hover{.box-shadow(none)}
+
+.menu-foot      {position:absolute; width:100%; left:0; top:165px; list-style-type:none;margin:0; padding:0 0 12px 0; border-bottom:1px dotted #fff;}
+.menu-foot li        {float:left; margin-left:31px; border-left:1px solid #ffffff; padding-left:31px;}
+.menu-foot li.first{margin-left:0; padding-left:0; border-left:none;}
+.menu-foot a         {font-size: 14px; color:#fff; text-decoration:none;}
+.menu-foot a:hover   {color:#fff; text-decoration:underline;}
+.copyright      {position:absolute; top:220px; left:0; width:290px; color:#fff;}
+.adress-foot    {position:absolute; right:0; top: 220px; width:298px; color:#fff; line-height:1.2;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+/* ==|== media queries ====================================================== */
+
+@media only screen and (min-width: 480px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}

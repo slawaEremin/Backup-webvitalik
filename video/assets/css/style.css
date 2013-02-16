@@ -1,0 +1,147 @@
+body            {background: #F67D0F;}
+.wrap           { width: 100%; max-width: 2000px;margin:0 auto;  min-height: 100%; }
+.content        {  position: relative; width: 100%; }
+.content-flash  { position: absolute; top:-1000px;/* width: 960px;*/ min-height: 100%;}
+.content-preview{ min-width: 610px;max-width: 2000px; margin:0 auto; overflow: hidden; position: relative;  -ms-box-shadow: 0 7px 36px #8F2B05; -webkit-box-shadow: 0 7px 36px #8F2B05; -moz-box-shadow: 0 7px 36px #8F2B05; box-shadow: 0 7px 36px #8F2B05; }
+.content-item   { /*width: 240px; height: 180px;*/ float: left; display: block; position: relative; overflow: hidden;}
+.content-item:hover         { position: relative; z-index: 100; -ms-box-shadow: 0 0 15px #27120F;-moz-box-shadow: 0 0 15px #27120F; -webkit-box-shadow: 0 0 15px #27120F; box-shadow: 0 0 15px #27120F; }
+.content-item .inner        { display: none; position: absolute;z-index:20; left: 0; top:0; height: 100%; width: 100%; box-shadow: 0 0 2px #fff inset;}
+.content-item:hover .inner   { display: block;}
+.content-item img{ display: block; width: 100%; }
+
+.content-videobeseda        { float: left; overflow: hidden;}
+.content-videobeseda .logo  { float:left; margin:2% 0 0 5%; width: 35%;}
+.content-videobeseda .logo img{ display: block; width: 100%;}
+.content-videobeseda .title { width: 191px; height: 67px; position: relative;  background: url(../img/title.png) no-repeat left top; float: left; margin: 5% 13% 0 0; font-size:12px; line-height: 1.2;}
+.content-videobeseda .title i { position: absolute; left:10px; top:37px; color:#fff; font:italic 12px Arial;}
+.content-videobeseda .inner-title{ text-indent: -9999px; display: block;}
+.find-people                { width: 205px; height: 69px; text-indent: -9999px; background: url(../img/button.png) no-repeat left top; float: left;  margin:3% 11% 0 0; }
+.find-people:hover          {background-position: left -70px;}
+.find-people:active         {background-position: left -140px;}
+.show-people                { width: 205px; height: 69px; display: block; text-indent: -9999px; background: url(../img/show-more.png) no-repeat left top;   margin:20px auto 0 auto; }
+.show-people:hover          {background-position: left -70px;}
+.show-people:active         {background-position: left -140px;}
+
+.footer  .copyright         { width: 850px; margin:30px auto 50px auto; font:italic 12px Arial; color:#fff; line-height: 1.5; text-align: center;}
+.copyright .top             { width:232px; height: 1px; background-color: #FDDCBE; margin: 0 auto 32px auto;}
+.copyright .bottom,
+.feedbacks .bottom          { height: 9px; width:238px ; margin: 25px auto 0 auto; background: url(../img/copyright-b.png) no-repeat left; }
+.copyright-bottom           { font:italic 11px Arial; color:#fff; padding-bottom: 38px; text-align: center; }
+.copyright-bottom .title    { width: 123px; height: 17px; text-indent: -9999px; margin: 0 auto 15px auto; display: block; background: url(../img/title-b.png) no-repeat left top; }
+
+.content-item .find-buttom  { display: none;}
+.find-buttom                { display: block; position: absolute;z-index:50; left:60px; top:30px; height: 117px; width: 118px; text-indent: -9999px; background: url(../img/find.png) no-repeat left top;}
+.find-buttom:hover          {background-position: left -115px;}
+.find-buttom:active         {background-position: left -232px;}
+#flashcontent               {background-color: #F67D0F;}
+.content-flash              {}
+
+.content-videobeseda        { position: absolute; z-index: 100;background: #F67D0F;}
+.content-inner              {margin:0 auto; overflow: hidden;}
+
+.feedbacks                  { width: 850px; margin:50px auto; font:italic 12px Arial; color:#fff; line-height: 1.64; overflow: hidden;}
+.feedback-item              { width:29%; float: left; margin:0 2% ; text-align: center;}
+.feedback-preview           { width: 56px; border:4px solid #fff; margin:0 auto 18px auto; -webkit-box-shadow: 0 1px 2px #AA560B; -moz-box-shadow: 0 1px 2px #AA560B;  box-shadow: 0 1px 2px #AA560B;  }
+.feedback-give              { width: 131px; padding:12px 0 2px  20px; display: block; color:#fff; font:italic 14px Arial; margin: 26px auto 50px auto; background: url(/assets/img/give.png) no-repeat left top; text-decoration: none;}
+.feedback-give span         { text-decoration: underline;}
+.feedback-give:hover span   { text-decoration: none;}
+.feedback-give:hover        {color:#fff;}
+
+@media only screen  and (max-width: 600px) {
+	.content-item               { width: 33.333%; height: 150px;}
+	.content-videobeseda        { width: 100%; top:150px; left:0; height:150px;}
+	.content-inner              {width: 380px;}
+	.content-videobeseda .logo  { width: 140px; margin: 0; }
+	.content-videobeseda .title {margin: 10px 0 0 25px; display: block;}
+	.find-people                {margin: 5px 0 0 15px;}
+	.find-buttom                {left: 20%;	top: 10%;}
+	.feedbacks ,
+	.footer  .copyright         { width: 500px;}
+	}
+
+@media only screen and (min-width: 601px) and (max-width: 760px) {
+	.content-item               { width: 25%; height:110px;}
+	.content-videobeseda        { width: 50%; left:25%; top:110px; height:110px;}
+	.content-inner              {width: 290px;}
+	.content-videobeseda .logo  { width: 85px; margin: 10px 0 0 0; }
+	.content-videobeseda .title { display: none; }
+	.find-people                {margin: 20px 0 0 0;}
+	.find-buttom                {left: 19%; top: 0;}
+    .feedbacks,
+    .footer  .copyright         { width: 500px;}
+	}
+
+@media only screen and (min-width: 761px) and (max-width: 880px) {
+	.content-item               { width: 25%; height:140px;}
+    .content-videobeseda        { width: 50%; left:25%; top:140px; height:140px;}
+	.content-inner              {width: 330px;}
+	.content-videobeseda .logo  { width: 120px; margin: 10px 0 0 0; }
+	.content-videobeseda .title {margin: 3px 0 0 5px; display: block;}
+	.find-people                {margin: 1px 0 0 0;}
+	.find-buttom                {left: 22%; top: 10%;}
+    .feedbacks,
+    .footer  .copyright         { width: 700px;}
+		}
+
+@media only screen and (min-width: 881px) and (max-width: 1010px) {
+	.content-item               { width: 25%; height:160px;}
+	.content-videobeseda        { width: 50%; left:25%; top:160px; height:160px;}
+	.content-inner              {width: 350px;}
+	.content-videobeseda .logo  { width: 128px; margin:15px 0 0 0; }
+	.content-videobeseda .title {margin: 7px 0 0 10px; display: block;}
+	.find-people                {margin: 7px 0 0 0;}
+	.find-buttom                {left: 25%; top: 18%;}
+	}
+
+@media only screen and (min-width: 1011px) and (max-width: 1129px) {
+	.content-item               { width: 20%; height:150px;}
+	.content-videobeseda        { width: 60%; left:20%; top:150px; height:150px;}
+	.content-inner              { width: 350px;}
+	.content-videobeseda .logo  { width: 128px; margin: 10px 0 0 0; }
+	.content-videobeseda .title {margin:  5px 0 0 10px; display: block;}
+	.find-people                {margin: 4px 0 0 0;}
+	.find-buttom                {left: 24%; top: 11%;}
+	}
+
+@media only screen and (min-width: 1130px) and (max-width: 1380px) {
+	.content-item               { width: 16.6666%; height:140px;}
+	.content-videobeseda        { width: 33.4%; left:33.3%; top:140px; height:140px;}
+	.content-inner              { width:330px;}
+	.content-videobeseda .logo  { width: 110px; margin:10px 0 0 0; }
+	.content-videobeseda .title {margin: 3px 0 0 8px; display: block;}
+	.find-people                {margin: 1px 0 0 0;}
+	.find-buttom                {left: 25%; top: 8%;}
+	}
+
+@media only screen and (min-width: 1381px)  and (max-width: 1580px) {
+	.content-item               { width: 12.5%; height:120px;}
+	.content-inner              { width: 360px; margin-top:40px;}
+	.content-videobeseda        { width: 50%; left:25%; top:120px; height:240px;}
+	.content-videobeseda .logo  { width: 140px; margin: 0; }
+	.content-videobeseda .title {margin: 5px 0 0 10px; display: block;}
+	.find-people                {margin: 10px 0 0 0;}
+	.find-buttom                {left: 20%; top: 3%;}
+	}
+
+@media only screen and (min-width: 1581px) and (max-width: 1801px) {
+	.content-item               { width: 10%; height:117px;}
+	.content-inner              { width: 360px; margin-top:40px;}
+	.content-videobeseda        { width: 40%; left:30%; top:117px; height:234px;}
+	.content-videobeseda .logo  { width: 140px; margin: 0; }
+	.content-videobeseda .title {margin: 5px 0 0 10px; display: block;}
+	.find-people                {margin: 10px 0 0 0;}
+	.find-buttom                {left: 15%; top: 1%;}
+	}
+
+@media only screen and (min-width: 1801px)  {
+	.content-item               { width: 10%; height:132px;}
+	.content-inner              { width: 360px; margin-top:40px;}
+	.content-videobeseda        { width: 40%; left:30%; top:132px; height:264px;}
+	.content-videobeseda .logo  { width: 140px; margin: 0; }
+	.content-videobeseda .title {margin: 5px 0 0 10px; display: block;}
+	.find-people                {margin: 10px 0 0 0;}
+	.find-buttom                {left: 21%; top: 7%;}
+	}
+
+
+

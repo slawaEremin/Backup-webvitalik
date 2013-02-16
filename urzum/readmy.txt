@@ -1,0 +1,7 @@
+html5 - valid
+html5boilerplate based
+css3
+960gs
+ie6+
+jquery
+jquery plugin(slider,fancybox,lofnews)

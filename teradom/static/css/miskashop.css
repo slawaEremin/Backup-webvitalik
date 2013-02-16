@@ -1,0 +1,75 @@
+
+/*header*/
+.border-top     {background: url('/static/img/miska/border-top.png') repeat-x center top;}
+.add-enter      {padding:10px; top:-4px;background: url('/static/img/miska/top-nav.png') no-repeat center top; }
+.add-enter  a   {color: #fdfdfd; border-right-color: #375026; }
+
+.logo           {width:192px; height:62px; background:url('/static/img/miska/logo.png') no-repeat left top;}
+.order .recieve {color:#29a101;}
+.order .phone   {color:#202121;font-weight: bold;}
+.phone a        {color:#000; border-bottom:1px solid #212121;}
+#basket-list    {background: url('/static/img/miska/basket.png') no-repeat center center;}
+.detail-basket  {color:#272727;}
+.basket a       {color:#38af00;}
+.basket-list,
+#basket-list.active{ border-color:#2b2b2b;background-color:#51b02d; opacity: 0.95;  }
+.bas-list-item  {color:#141313;}
+.bas-list-item a      {color:#fff;}
+/**/
+
+.pagination li.current a, .pagination a:hover {background: url('/static/img/miska/slider-nav.png') no-repeat center center;}
+.menu a span    {color: #fff}
+.menu a         {color:#fff; }
+.menu a.active span,
+.menu a:hover span  {color:#68D92A; text-shadow: none;}
+.menu ul a.active,
+.menu ul a:hover {background-color: transparent;}
+.menu  a.active,
+.menu a:hover{background-color: #2B2B2B;}
+.menu-items li {color:#141313;}
+
+
+
+/*menu*/
+nav             {background: url('/static/img/miska/menu.png') no-repeat left top; width:1001px;}
+.menu-left ,
+.menu-right     {background-image: none;}
+.menu li        {background-image: url('/static/img/miska/delimetr.png') ;}
+.menu a:hover,
+.menu a.active  {background-color:#1e1e1e;}
+.menu-items     {border-color:#2b2b2b;background-color:#51b02d; opacity: 0.95;}
+.menu-items .left{border-right:1px solid #71DD3E;}
+
+/*content*/
+.main h3.title, .main h3.title-new {color:#232424; border-bottom-color:#232424;}
+.hit-item h4 a                      {color:#181818;}
+.hit-item h4 a:hover                {color:#3ba910; }
+.price .in-basket                   {background-image: url('/static/img/miska/inbasket.png');}
+.right-arrow                        {background-image: url('/static/img/miska/arrow-right.png')}
+.right-arrow:hover                       {background-image: url('/static/img/miska/arrow-right.png')}
+.left-arrow                         {background-image: url('/static/img/miska/arrow-left.png')}
+.left-arrow:hover                         {background-image: url('/static/img/miska/arrow-left.png')}
+
+.nav-tabs                           {border-bottom-color: #278700}
+.nav-tabs a                         {color: #252424;}
+.nav-tabs a:hover,
+.nav-tabs a.active                  {color: #fff; background-image: url('/static/img/miska/tabs.png');}
+h2                                  {color:#3EAE12; }
+a                                   {color: #181818;}
+.breadcrumb a:hover, .breadcrumb li.current a{color:#3BA910;}
+.back-link                          {background-image: url('/static/img/miska/backlink.png'); width:107px; height:28px;}
+.product-desc h1                    {color: #232323;}
+.product-desc .have-product span    {color:#2f9104;}
+.product-desc .price span           {color:#329d0b}
+.product-desc .old-price span       {color: #319c0b;}
+.product-desc .buy-product          {background-image: url('/static/img/miska/button-buy.png');}
+
+/*footer*/
+footer              {background-image: url('/static/img/miska/footer.png'); width:1002px;}
+.foot-left          {background-image: none;}
+.foot-right         {background-image: none;}
+.bottom-menu h4     {color:#000;text-shadow: 0 1px 0 #70E833; }
+.bottom-menu ul li  {border-bottom: 1px solid #207200;}
+.bottom-menu ul a   {color:#fff; }
+.bottom-menu .left  {margin-right:15px;}
+

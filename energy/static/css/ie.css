@@ -1,0 +1,36 @@
+.nagrada .hover-mage{
+	background: none;}
+
+a.button{
+	background-color: #629640;}
+
+#nav {
+	z-index:50;}
+
+.logo{
+	z-index:5;}
+	
+#nav .sub-show{
+	top:40px;
+}
+
+#nav .sub-show{
+	padding:5px 10px;
+}
+
+#nav .sub-show ul{
+	margin-bottom: 0;
+}
+
+#search{
+	top:140px;
+}
+
+.slider-item p{
+	background-color: #fff;
+}
+
+.nagrada{
+	
+	display: inline;
+}

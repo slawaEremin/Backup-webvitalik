@@ -5,8 +5,8 @@ a:hover		{color: #4e4e4e;}
 a:hover, a:active {outline: 0;}
 
 .outer-wrap	{margin:0 auto; width:1000px; background-color:#fff; margin-bottom:50px; box-shadow:0 0 10px #333;}
-body		{background: url('/static/img/bottom.jpg') repeat left top;}
-.wrap		{background: url('/static/img/back.jpg') no-repeat center top;}
+body		{background: url('../img/bottom.jpg') repeat left top;}
+.wrap		{background: url('../img/back.jpg') no-repeat center top;}
 .format		{margin-left:14px;margin-right:16px;}
 .nav .label1, .noleft{border-left:none;}
 /*header*/
@@ -15,8 +15,8 @@ header		{position: relative; border-top:8px solid #339900; height: 220px;box-sha
 .nav li		{float:left; border-left:1px solid #4C4C4C;}
 .nav li:first-child{border-left:none;}
 .nav a		{float:left;display: block; margin:0 25px;text-decoration: none;color:#4C4C4C;font:italic 14px Georgia sans-serif;}
-.nav .label1{text-indent: -9999px; background: url('/static/img/home.png') no-repeat center center;width:55px;}
-.nav .label5{text-indent: -9999px; background: url('/static/img/feedback.png') no-repeat center center;width:55px;}
+.nav .label1{text-indent: -9999px; background: url('../img/home.png') no-repeat center center;width:55px;}
+.nav .label5{text-indent: -9999px; background: url('../img/feedback.png') no-repeat center center;width:55px;}
 .nav .label4 a{border-bottom:1px dotted #4C4C4C;}
 .nav .label2 span,.nav .label3 span {display: block; margin:0 25px;font:italic 14px Georgia sans-serif;}
 
@@ -24,7 +24,7 @@ h1			{position: absolute; left:30px; top:30px; overflow: hidden; font:bold 25px 
 h1 a		{display: block;float: left; margin-right:15px;}
 h1 .title	{display: block; margin-top:15px; width: 600px;}
 
-nav			{position: absolute; left: 0; bottom:0; width: 100%; height: 32px; background: url('/static/img/menu.png') repeat-x left top;
+nav			{position: absolute; left: 0; bottom:0; width: 100%; height: 32px; background: url('../img/menu.png') repeat-x left top;
 			overflow:hidden; }
 .main		{margin-left:50px;}
 .main li	{float:left; }
@@ -90,9 +90,9 @@ h3 a:hover	{color:#BBB}
 .actual .info		{margin-right:232px;}
 .actual .more-info	{overflow: hidden; margin-bottom:10px;clear:both;}
 .more-info span		{display: block; float:left; color:#999; font:italic 13px Georgia; padding-right:20px;}
-.more-info .view	{ background: url('/static/img/view.png') no-repeat right center; margin-right:20px;}
-.more-info .comment	{ background: url('/static/img/comment.png') no-repeat right center; margin-right:20px;}
-.more-info .publ	{ background: url('/static/img/publ.png') no-repeat right center;}
+.more-info .view	{ background: url('../img/view.png') no-repeat right center; margin-right:20px;}
+.more-info .comment	{ background: url('../img/comment.png') no-repeat right center; margin-right:20px;}
+.more-info .publ	{ background: url('../img/publ.png') no-repeat right center;}
 .themes	b			{display: block;float: left; font:italic 11px Georgia; color:#999;text-decoration: underline;}
 .themes	.theme-item	{margin-left:50px; font:12px Georgia; color:#56B22B;display: block;}
 
@@ -114,20 +114,20 @@ h3.uslugi a		{background-color: #2BA3D3;}
 				  display: block; float:left;  margin-bottom:14px;border-width:1px 0 1px 1px; padding:0 12px;text-decoration: none; color:#fff;
 				  text-align: center; }
 .termin span a:hover{color:#fff;}
-.termin .service1{background: url('/static/img/service1.png') no-repeat right center;  }
+.termin .service1{background: url('../img/service1.png') no-repeat right center;  }
 .termin .service1 a{background-color:#1E4D89; border-color:#00206B; text-shadow: 0 -1px 0px #163966;}
-.termin .service2{background: url('/static/img/service2.png') no-repeat right center;  }
+.termin .service2{background: url('../img/service2.png') no-repeat right center;  }
 .termin .service2 a{background-color:#2BA3D3; border-color:#008CC8; text-shadow: 0 -1px 0px #20799D;}
-.termin .service3{background: url('/static/img/service3.png') no-repeat right center;  }
+.termin .service3{background: url('../img/service3.png') no-repeat right center;  }
 .termin .service3 a{background-color:#56B22B; border-color:#2C9F00; text-shadow: 0 -1px 0px #408520;}
-.termin .service4{background: url('/static/img/service4.png') no-repeat right center;  }
+.termin .service4{background: url('../img/service4.png') no-repeat right center;  }
 .termin .service4 a{background-color:#6988B0; border-color:#436A9C; text-shadow: 0 -1px 0px #495F7B;}
 .termin .service2, .termin .service3, .termin .service4{clear:left;}
 .ie6 .termin .service2, .ie6 .termin .service3, .ie6 .termin .service4,
 .ie7 .termin .service2, .ie7 .termin .service3, .ie7 .termin .service4{clear:none;}
 
 .subscribe 		{margin-bottom:50px;border:4px solid #fff; border-width:0 4px 4px 0; border-radius:3px; box-shadow:1px 2px 3px #B3B3B3;
-				background: url('/static/img/subscribe.png') repeat left top; padding:5px 10px; color:#fff; font-size:16px; text-shadow: 0 -1px 0 #01497F; }
+				background: url('../img/subscribe.png') repeat left top; padding:5px 10px; color:#fff; font-size:16px; text-shadow: 0 -1px 0 #01497F; }
 .subscribe h4	{margin:0 0 7px 0; font-size:16px; text-align: center;text-shadow: 0 -1px 1px  #01497F;}
 .subscribe form	{overflow: hidden; }
 .subscribe label {float:left; margin-right:10px; margin-top:5px; display: block;text-shadow: 0 -1px 1px #01497F;}
@@ -149,7 +149,7 @@ h3.uslugi a		{background-color: #2BA3D3;}
 #region, #municip{display: none;}
 
 /*footer*/
-footer			{height:217px ;background: url('/static/img/footer.png') repeat-x left top;position: relative; color:#fff; margin-top:30px;}
+footer			{height:217px ;background: url('../img/footer.png') repeat-x left top;position: relative; color:#fff; margin-top:30px;}
 .copyright		{margin:25px 0 0 25px; width:250px;}
 /* ==|== media queries ====================================================== */
 @media only screen and (min-width: 480px) {

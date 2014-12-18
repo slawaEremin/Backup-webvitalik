@@ -1,19 +1,19 @@
 
 /*header*/
-.border-top     {background: url('/static/img/babashop/border-top.png') repeat-x center top;}
-.add-enter      {padding:10px; top:-4px;background: url('/static/img/babashop/top-nav.png') no-repeat center top; }
+.border-top     {background: url('../img/babashop/border-top.png') repeat-x center top;}
+.add-enter      {padding:10px; top:-4px;background: url('../img/babashop/top-nav.png') no-repeat center top; }
 
 
-.logo           {width:196px; height:55px; background:url('/static/img/babashop/logo.png') no-repeat left top;}
+.logo           {width:196px; height:55px; background:url('../img/babashop/logo.png') no-repeat left top;}
 .order .recieve {color:#CE0116;}
 .order .phone   {color:#670001;font-weight: bold;}
 .phone a        {color:#212121; border-bottom:1px solid #212121;}
-#basket-list    {background: url('/static/img/babashop/basket.png') no-repeat center center;}
+#basket-list    {background: url('../img/babashop/basket.png') no-repeat center center;}
 .detail-basket  {color:#272727;}
 .basket a       {color:#52050d;}
 .basket-list,
 #basket-list.active{ border-color:#7d0808; }
-.pagination li.current a, .pagination a:hover {background: url('/static/img/babashop/slider-nav.png') no-repeat left top;}
+.pagination li.current a, .pagination a:hover {background: url('../img/babashop/slider-nav.png') no-repeat left top;}
 .menu a span    {text-shadow: -1px 0 0 #a514A1;}
 .menu a.active span,
 .menu a:hover span  {color:#fff; text-shadow: none;}
@@ -22,10 +22,10 @@
 .bas-list-item a      {color:#fff;}
 
 /*menu*/
-nav             {background: url('/static/img/babashop/menu.png') no-repeat left top; width:1002px;}
+nav             {background: url('../img/babashop/menu.png') no-repeat left top; width:1002px;}
 .menu-left ,
 .menu-right     {background-image: none;}
-.menu li        {background-image: url('/static/img/babashop/delimetr.png') ;}
+.menu li        {background-image: url('../img/babashop/delimetr.png') ;}
 .menu a:hover,
 .menu a.active  {background-color:#7d0808;}
 .menu-items     {border:2px solid #7d0808; }
@@ -34,21 +34,21 @@ nav             {background: url('/static/img/babashop/menu.png') no-repeat left
 /*content*/
 .main h3.title, .main h3.title-new {color:#1b1b1b; border-bottom-color: #630001;}
 .hit-item h4 a                      {color:#650001;}
-.price .in-basket                   {background-image: url('/static/img/babashop/button.png');}
-.right-arrow                        {background-image: url('/static/img/babashop/arrow-right.png')}
-.right-arrow:hover                       {background-image: url('/static/img/babashop/arrow-right.png')}
-.left-arrow                         {background-image: url('/static/img/babashop/arrow-left.png')}
-.left-arrow:hover                         {background-image: url('/static/img/babashop/arrow-left.png')}
+.price .in-basket                   {background-image: url('../img/babashop/button.png');}
+.right-arrow                        {background-image: url('../img/babashop/arrow-right.png')}
+.right-arrow:hover                       {background-image: url('../img/babashop/arrow-right.png')}
+.left-arrow                         {background-image: url('../img/babashop/arrow-left.png')}
+.left-arrow:hover                         {background-image: url('../img/babashop/arrow-left.png')}
 
 /*footer*/
-footer              {background-image: url('/static/img/babashop/footer.png'); width:1002px;}
+footer              {background-image: url('../img/babashop/footer.png'); width:1002px;}
 .foot-left          {background-image: none;}
 .foot-right         {background-image: none;}
 .bottom-menu h4     {color:#141414;text-shadow:1px 0 0 #ff8c97; }
 .bottom-menu ul li  {border-bottom: 1px solid #5f0004;}
 .bottom-menu .left  {margin-right:15px;}
 
-.back-link          {background-image: url('/static/img/babashop/back-link.png'); width:107px; height:28px;}
-.product-desc .buy-product{background-image: url('/static/img/babashop/button-buy.png');}
-.nav-tabs a.active, .nav-tabs a:hover {background-image: url('/static/img/babashop/tabs.png'); color:#fff;}
+.back-link          {background-image: url('../img/babashop/back-link.png'); width:107px; height:28px;}
+.product-desc .buy-product{background-image: url('../img/babashop/button-buy.png');}
+.nav-tabs a.active, .nav-tabs a:hover {background-image: url('../img/babashop/tabs.png'); color:#fff;}
 

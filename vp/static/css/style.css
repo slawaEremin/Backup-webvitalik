@@ -1,6 +1,6 @@
 body{font:13px 'Trebucher MS', sans-serif; color:#666666; background-color:#EFEFEF;}
 
-h2		{text-transform:uppercase;  font-size:16px; color:#006699; margin: 20px 0; padding-left: 45px; background: url('/static/img/h2.jpg') no-repeat left 2px }
+h2		{text-transform:uppercase;  font-size:16px; color:#006699; margin: 20px 0; padding-left: 45px; background: url('../img/h2.jpg') no-repeat left 2px }
 p		{ margin:0 0 10px 0;}
 a 		{ color:#006699; }
 a:hover { color: #4C6B8C; }
@@ -26,15 +26,15 @@ nav .menu	{float:right; height: 40px;width:710px; position: relative; }
 .addmenu	{float:left; width:120px; height: 40px; overflow: hidden;}
 .addmenu li	{display: inline;}
 .addmenu a	{display: block;line-height: 40px; float:left;margin-top:15px;text-indent: -9999px;margin-right:20px;}
-.addmenu .home{background: url('/static/img/home.png')no-repeat left top; height:12px ; width:12px; }
-.addmenu .feedback{background: url('/static/img/feedback.png')no-repeat left top; height:12px ; width:12px; }
-.addmenu .search{background: url('/static/img/search.png')no-repeat left top; height:15px ; width:15px; }
+.addmenu .home{background: url('../img/home.png')no-repeat left top; height:12px ; width:12px; }
+.addmenu .feedback{background: url('../img/feedback.png')no-repeat left top; height:12px ; width:12px; }
+.addmenu .search{background: url('../img/search.png')no-repeat left top; height:15px ; width:15px; }
 
 
-.logo		{background: url('/static/img/logo-back.jpg') no-repeat center top; height:301px; zoom:1; z-index: 10;}
+.logo		{background: url('../img/logo-back.jpg') no-repeat center top; height:301px; zoom:1; z-index: 10;}
 h1			{overflow: hidden; margin:0; padding-top:7px;} 
-h1 a		{text-indent: -9999px; float:left; margin-right:15px; height: 69px; width:54px; background: url('/static/img/logo.png') no-repeat left top;}
-.title		{margin-left:70px; height:48px;width:748px; display: block; margin-top:17px;background: url('/static/img/title.png') no-repeat left top;}
+h1 a		{text-indent: -9999px; float:left; margin-right:15px; height: 69px; width:54px; background: url('../img/logo.png') no-repeat left top;}
+.title		{margin-left:70px; height:48px;width:748px; display: block; margin-top:17px;background: url('../img/title.png') no-repeat left top;}
 .title span	{display: none;}
 .ie6 .title	{background: none; color: #4C6B8C; font-size:18px; text-transform: uppercase; font-weight: normal;}
 .ie6 span	{display: inline;}
@@ -60,7 +60,7 @@ h1 a		{text-indent: -9999px; float:left; margin-right:15px; height: 69px; width:
 .dop-menu	{list-style: none;margin:0; padding:0;}
 .dop-menu li{display: inline;}
 .dop-menu a {display: block;height: 55px;padding:35px 35px 0 35px; color:#fff;font-size:14px; text-transform: uppercase;
-				background:#4C6B8C url('/static/img/arrow.png') no-repeat 185px center;border-top:3px solid #fff; text-decoration: none;}
+				background:#4C6B8C url('../img/arrow.png') no-repeat 185px center;border-top:3px solid #fff; text-decoration: none;}
 .dop-menu li:first-child a{border:none;} 
 .dop-menu a:hover{background-color:#7FB2CC;color:#fff;}	
 
@@ -70,7 +70,7 @@ h1 a		{text-indent: -9999px; float:left; margin-right:15px; height: 69px; width:
 .glava figcaption{font-size: 10px; font-style: italic; color:#666666; }
 .glava figcaption span {display: block; margin-bottom:5px; font-size:16px; text-decoration: underline; color:#006699; font-style: normal;}
 
-.speech		{background: url('/static/img/glava-speech.png') no-repeat left top; height: 78px; width:180px;
+.speech		{background: url('../img/glava-speech.png') no-repeat left top; height: 78px; width:180px;
 			 font-style: italic; color:#666666; padding:90px 15px 0 25px; font-size: 12px;}
 .speech	 a	{display: block;font-style: normal; color:#3399CC; margin-top:10px; text-align:right; }			 
 
@@ -87,7 +87,7 @@ article			{margin-bottom:30px;}
 .news-title h3 a{font-size:15px; color:#006699;margin:0; float:none; margin: 0;}
 
 .vv-says		{font-size:13px; line-height:1.4; font-style:italic; color:#666666; padding:50px 15px 10px 15px;
-				 background:#fff  url('/static/img/arrow2.png') no-repeat 15px 15px;}
+				 background:#fff  url('../img/arrow2.png') no-repeat 15px 15px;}
 .vv-says .avtor	{font-size:13px; font-style:normal; display: block; font-size:16px; color: #006699;margin-bottom:10px;margin-top:10px;}
 .front 			{margin-top:15px;}
 
@@ -105,7 +105,7 @@ article			{margin-bottom:30px;}
 .priemnya .region{display: none;}
 
 /*footer*/
-footer 			{background: #4C698B url('/static/img/footer.jpg') no-repeat center top;height:190px; margin-top: 15px;}
+footer 			{background: #4C698B url('../img/footer.jpg') no-repeat center top;height:190px; margin-top: 15px;}
 .copyright		{font-size:12px; color:#fff; margin-top:20px;}
 
 

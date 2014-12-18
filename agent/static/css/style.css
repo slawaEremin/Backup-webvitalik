@@ -1,7 +1,7 @@
 /*all layout*/
-body					{background: url('/static/img/back1.jpg') no-repeat center top;}
+body					{background: url('../img/back1.jpg') no-repeat center top;}
 .l-globalWidth 			{margin-left: auto;  margin-right: auto;  width: 960px;background-color:#fff; box-shadow:0 0 15px #666; }
-header					{height:200px; overflow: hidden;position: relative; background: url('/static/img/head-border.png') repeat-x left top; }
+header					{height:200px; overflow: hidden;position: relative; background: url('../img/head-border.png') repeat-x left top; }
 	.l-leftHeader		{position: absolute; top:45px; left:25px;}
 	.l-rightHeader		{position:absolute; right:25px; top:45px;}
 
@@ -32,7 +32,7 @@ header					{height:200px; overflow: hidden;position: relative; background: url('
 .ie6 .b-navContact		{zoom:1;}
 
 /*Map site*/
-.b-allSite				{display: block; padding-left:22px; background: url('/static/img/all-site.png') no-repeat left center; font-size: 12px; font-style:italic; color:#BA0000; margin-bottom:18px;}
+.b-allSite				{display: block; padding-left:22px; background: url('../img/all-site.png') no-repeat left center; font-size: 12px; font-style:italic; color:#BA0000; margin-bottom:18px;}
 .b-mapSite				{margin-bottom:20px;}
 .b-mapSite ul			{list-style-type: none; padding:0; margin:0;}
 	.b-mapSite ul li	{padding:3px 0;}
@@ -43,7 +43,7 @@ header					{height:200px; overflow: hidden;position: relative; background: url('
 		.b-mapSite ul ul a{font-size:12px; }
 
 /*about company*/
-.b-aboutCompany			{background: url('/static/img/district.png') no-repeat left top; min-height: 290px; overflow: hidden;}
+.b-aboutCompany			{background: url('../img/district.png') no-repeat left top; min-height: 290px; overflow: hidden;}
 .b-aboutCompany	div		{width:250px;margin-top:40px; line-height: 1.4;  float:right;  padding:10px 20px; background-color:rgba(102,152,189,0.8); color:#fff; font-style: italic; font-size: 12px;}
 .b-aboutCompany	div a	{font-size: 14px; text-decoration: underline;font-weight: bold; display:block;color:#fff;margin-bottom: 10px; }
 .b-aboutCompany	div a:hover{color:#fff;}
@@ -75,12 +75,12 @@ header					{height:200px; overflow: hidden;position: relative; background: url('
 	.b-section h4		{font-size: 15px; line-height: 1.3; margin-bottom:10px;padding-left:45px;min-height: 57px;}
 	.b-section ul		{list-style: none; margin:0; padding:0;}
 	.b-section ul li	{padding: 4px 0;}
-	.b-section a		{padding-left:45px;background: url('/static/img/section-a.png') no-repeat 36px 7px;display: block;  text-decoration:none;  font-size: 11px;color:#666; }
+	.b-section a		{padding-left:45px;background: url('../img/section-a.png') no-repeat 36px 7px;display: block;  text-decoration:none;  font-size: 11px;color:#666; }
 	.b-section a:hover	{text-decoration: underline;}
-	.b-section .b-sectionAudit		{background: url('/static/img/section2.png') no-repeat left top;}
-	.b-section .b-sectionExpert		{background: url('/static/img/section3.png') no-repeat left top;}
-	.b-section .b-sectionProduct	{background: url('/static/img/section4.png') no-repeat left top;}
-	.b-section .b-sectionFinan		{background: url('/static/img/section1.png') no-repeat left top;}
+	.b-section .b-sectionAudit		{background: url('../img/section2.png') no-repeat left top;}
+	.b-section .b-sectionExpert		{background: url('../img/section3.png') no-repeat left top;}
+	.b-section .b-sectionProduct	{background: url('../img/section4.png') no-repeat left top;}
+	.b-section .b-sectionFinan		{background: url('../img/section1.png') no-repeat left top;}
 	
 /*footer*/
 .b-copyright			{margin:0 10px; border-top:1px solid #6698BD; padding:20px; color:#6698BD;font-size: 11px; }

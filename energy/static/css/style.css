@@ -1,12 +1,12 @@
 /*---- main page ---*/
 
 h1 a{
-	behavior: url('/static/files/iepngfix.htc') }
+	behavior: url('../files/iepngfix.htc') }
 
 /*--- HEADER---*/
 .menu{
 	height:40px;
-	background: url('/static/images/menu_back.png') repeat-x left top;
+	background: url('../images/menu_back.png') repeat-x left top;
 	width: 100%;
 	}
 
@@ -52,11 +52,11 @@ h1 a{
 	padding:0 5px;
 	font-size:11px;
 	text-decoration: none;
-	background: url('/static/images/home.png') no-repeat left 14px;
+	background: url('../images/home.png') no-repeat left 14px;
 	}
 
 #nav #home:hover{
-	background: url('/static/images/home.png') no-repeat left 14px;
+	background: url('../images/home.png') no-repeat left 14px;
 	background-color:transparent ;}
 
 
@@ -76,7 +76,7 @@ h1 a{
 	width:276px;
 	height: 121px;
 	text-indent: -9999px;
-	background: url('/static/images/logo.png') no-repeat left top;}
+	background: url('../images/logo.png') no-repeat left top;}
 
 .phone{
 	font:25px Georgia, sans-serif;
@@ -151,7 +151,7 @@ h1 a{
 	height: 32px;
 	width:32px;
 	text-indent: -9999px;
-	background: url('/static/images/arrow.png') no-repeat left top;
+	background: url('../images/arrow.png') no-repeat left top;
 	cursor: pointer;}
 
 #next-slider{
@@ -161,7 +161,7 @@ h1 a{
 	height: 32px;
 	width:32px;
 	text-indent: -9999px;
-	background: url('/static/images/arrow.png') no-repeat left -32px;
+	background: url('../images/arrow.png') no-repeat left -32px;
 	cursor: pointer;}
 
 
@@ -259,7 +259,7 @@ h1 a{
 /*--- footer --*/
 .footer{
 	height: 277px;
-	background: url('/static/images/footer_back.jpg') repeat-x left top;}
+	background: url('../images/footer_back.jpg') repeat-x left top;}
 
 .copyright{
 	position:absolute;
@@ -270,7 +270,7 @@ h1 a{
 }
 .people{
 	height:277px;
-	background: url('/static/images/footer1.jpg') no-repeat right top;}
+	background: url('../images/footer1.jpg') no-repeat right top;}
 
 
 
@@ -364,7 +364,7 @@ h1 a{
 
 
 .zarplata{
-	background: #BEECA9 url('/static/images/top-k.png') no-repeat 5px 5px;
+	background: #BEECA9 url('../images/top-k.png') no-repeat 5px 5px;
 	font-size:13px;
 	color:#fff;
 	padding:60px 0 0 20px;
@@ -378,7 +378,7 @@ h1 a{
 .zarplata1{
 	padding:0 5px 30px 0;
 	margin:0 15px 20px 0;
-	background: #BEECA9 url('/static/images/bottom-k.png') no-repeat right bottom;
+	background: #BEECA9 url('../images/bottom-k.png') no-repeat right bottom;
 }
 
 .blocks{
@@ -399,11 +399,11 @@ h1 a{
 	text-align: center;
 	padding:10px 30px;
 	text-transform:uppercase;
-	background:#F1F1F1 url('/static/images/arrowdown.png') no-repeat 190px 17px;}
+	background:#F1F1F1 url('../images/arrowdown.png') no-repeat 190px 17px;}
 
 .arrow2{
 	padding:20px 20px;
-	background:#F1F1F1 url('/static/images/arrowdown.png') no-repeat 190px 44px;}
+	background:#F1F1F1 url('../images/arrowdown.png') no-repeat 190px 44px;}
 
 .list, ;{
 	margin:30px 0 20px 0;}
@@ -424,7 +424,7 @@ h1 a{
 .zayavki{
 	margin:30px 0 30px;
 	padding-left:40px;
-	background: url('/static/images/list.png') no-repeat left top;}
+	background: url('../images/list.png') no-repeat left top;}
 
 	.zayavki a{
 		display: block;	}
@@ -489,7 +489,7 @@ h1 a{
 	}
 
 .nagrada .active{
-	background: url('/static/images/lupa.png') no-repeat right 2px;
+	background: url('../images/lupa.png') no-repeat right 2px;
 	background-color: rgba(0,0,0,.5);
 }
 

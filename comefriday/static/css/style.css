@@ -1,51 +1,51 @@
 /*common*/
 .container          { min-height: 100%;  height: auto !important;  height: 100%;  margin: 0 auto -59px; }
-.footer             {height: 59px; bottom: 0; color: white;  background: url('/static/img/footer.png') repeat left top;}
+.footer             {height: 59px; bottom: 0; color: white;  background: url('../img/footer.png') repeat left top;}
 
 /*header*/
-.header             {height:43px; width:100%; padding-top:6px; background: url('/static/img/head-top.png') repeat-x left top; }
+.header             {height:43px; width:100%; padding-top:6px; background: url('../img/head-top.png') repeat-x left top; }
 .header-inner       {width: 980px;margin: 0px auto; position: relative;}
 .header .logo       { position: absolute; left:0; top:5px;}
 .menu               {list-style: none; margin:0; padding: 0; height: 45px; position: absolute; left:220px; top:-2px;}
 .menu li            {display: inline; padding:0; }
 .menu a             {font:bold 14px 'Trebuchet MS', sans-serif;text-decoration: none; text-transform: uppercase; float:left; height:45px;line-height: 45px; margin-right:5px; -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0; overflow: hidden;    }
 .menu a span        {display: block; padding:0 15px;color:#99CCFF; }
-.menu a span b      { margin-left:10px; position: relative; top:-2px; display: inline-block; height:18px; line-height: 18px; padding:0 7px; background: url('/static/img/button-menu.png') repeat-x left top; color:#fff; font-size: 11px; text-shadow:0 1px 0 #294B6D; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;  }
+.menu a span b      { margin-left:10px; position: relative; top:-2px; display: inline-block; height:18px; line-height: 18px; padding:0 7px; background: url('../img/button-menu.png') repeat-x left top; color:#fff; font-size: 11px; text-shadow:0 1px 0 #294B6D; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;  }
 
-.header .menu a.active span {background:#EBEBEB url('/static/img/menu.png') repeat-x left top; color:#333366; height: 46px;}
+.header .menu a.active span {background:#EBEBEB url('../img/menu.png') repeat-x left top; color:#333366; height: 46px;}
 .header .menu a.active{height:46px;}
-.menu a:hover span {background: url('/static/img/menu1.png') repeat-x left bottom; color:#fff; height:45px;}
+.menu a:hover span {background: url('../img/menu1.png') repeat-x left bottom; color:#fff; height:45px;}
 
 
 
 /*content*/
-.wrap1              {width:100%; background:url('/static/img/body-b.png') repeat left top; padding-bottom: 20px; margin-bottom: 59px;  }
-.wrap2              {width:100%; background:url('/static/img/body-back.png') repeat-x left top; }
+.wrap1              {width:100%; background:url('../img/body-b.png') repeat left top; padding-bottom: 20px; margin-bottom: 59px;  }
+.wrap2              {width:100%; background:url('../img/body-back.png') repeat-x left top; }
 .content            {width:980px; margin:0 auto; padding-top: 20px;}
 .sidebar            {float:left; width:183px;}
 .first-block,
 .phone-block        {background-color:#fff; -webkit-border-radius: 4px;margin-bottom:10px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2)   ; -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2)   ; -ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2)   ; box-shadow: 0 1px 5px rgba(0,0,0,0.2)  ;}
-.profile            {min-height: 60px; padding:10px; overflow: hidden; background:#F0F0F0 url('/static/img/profile-top.png') repeat-x left top; border-bottom: 1px solid #D8D8D8; -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0;}
+.profile            {min-height: 60px; padding:10px; overflow: hidden; background:#F0F0F0 url('../img/profile-top.png') repeat-x left top; border-bottom: 1px solid #D8D8D8; -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0;}
 .profile img        {float:left;  }
 .profile .name      {margin-left: 60px; font:16px 'Trebuchet MS'; color:#003366;}
-.profile .premium   {display: block; width:71px; height:19px;text-indent: -9999px; background: url('/static/img/premium.png') no-repeat left top; margin-top:5px;}
+.profile .premium   {display: block; width:71px; height:19px;text-indent: -9999px; background: url('../img/premium.png') no-repeat left top; margin-top:5px;}
 
 .buttons            {background-color:#f5f5f5; margin:1px ;  }
 .buttons a          { font:12px Arial; color:#585858;overflow:hidden; position: relative; display: block; height:35px;line-height: 35px; text-decoration: none;text-shadow: 0 1px 0px #FFFFFF; }
 .buttons a b        { position: absolute; right:10px; top:10px; font:bold 10px Arial; color:#666666;text-shadow: 0 1px 0 #fff; display: inline-block; padding:3px 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background-color:#E6E6E6; -webkit-box-shadow: 1px 1px 2px #bbb inset    ; -moz-box-shadow: 1px 1px 2px #bbb inset    ; -ms-box-shadow: 1px 1px 2px #bbb inset    ; box-shadow: 1px 1px 2px #bbb inset    ;  }
-.buttons a:hover    {background: url('/static/img/profile-but-a.png') repeat-x left top; color:#3D648A;}
+.buttons a:hover    {background: url('../img/profile-but-a.png') repeat-x left top; color:#3D648A;}
 .buttons a:hover b  {background-color:#CCCCCC;  }
 .buttons a.last-item{border-bottom:1px solid #E4E4E4; height:34px;}
 .buttons a.first-item{background-position:left bottom; height:34px;}
 
 
 .buttons a span     {padding-left:33px;}
-.message span       {background: url('/static/img/mess.png') no-repeat 6px center;}
-.friends span       {background: url('/static/img/freinds.png') no-repeat 6px center;}
-.winks span         {background: url('/static/img/winks.png') no-repeat 6px center;}
-.viewed span        {background: url('/static/img/viewed.png') no-repeat 6px center;}
-.gifts span         {background: url('/static/img/gift.png') no-repeat 6px center;}
-.logout span        {background: url('/static/img/logout.png') no-repeat 6px center;}
+.message span       {background: url('../img/mess.png') no-repeat 6px center;}
+.friends span       {background: url('../img/freinds.png') no-repeat 6px center;}
+.winks span         {background: url('../img/winks.png') no-repeat 6px center;}
+.viewed span        {background: url('../img/viewed.png') no-repeat 6px center;}
+.gifts span         {background: url('../img/gift.png') no-repeat 6px center;}
+.logout span        {background: url('../img/logout.png') no-repeat 6px center;}
 
 h4.matches          {font: bold 16px 'Trebuchet MS'; color:#CC0066;margin:15px 10px; padding:0; }
 .matches            {margin-bottom: 20px;padding-bottom: 20px;}
@@ -53,13 +53,13 @@ h4.matches          {font: bold 16px 'Trebuchet MS'; color:#CC0066;margin:15px 1
 .item-match a       {color: #0066CC; text-decoration: none; font-size: 12px;}
 .item-match a:hover {text-decoration: underline;}
 
-.phone-block        {background:#fff url('/static/img/phone-block.png') no-repeat right center;margin-bottom:20px; position: relative; min-height: 80px; color:#333366;}
+.phone-block        {background:#fff url('../img/phone-block.png') no-repeat right center;margin-bottom:20px; position: relative; min-height: 80px; color:#333366;}
 .phone-text        { position: absolute;width:130px; top:15px; left:10px;font-size: 12px; }
 .phone-text b       {color:#CC0066; font-size: 15px;display: block ; margin-top:5px;}
 
 /*main*/
 .main              		 {margin-left:210px; padding-bottom: 20px;}
-.main-top           		 {height:50px; line-height: 50px;  background: url('/static/img/control-panel.png') repeat-x left top; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;}
+.main-top           		 {height:50px; line-height: 50px;  background: url('../img/control-panel.png') repeat-x left top; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;}
 .main-top span     	 {padding:15px;font:bold 20px 'trebuchet ms'; color:#fff;text-shadow: 1px 1px 2px #336A9A;  }
 .main              		 {background-color:#fff; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2)   ; -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2)  ; -ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2)   ; box-shadow: 0 1px 5px rgba(0,0,0,0.2)  ;}
 .looking-for-box   	 {padding:20px 15px 30px; background-color:#F5F5F5; margin:1px ;border-bottom: 1px solid #DCDCDC; }
@@ -67,7 +67,7 @@ h4.matches          {font: bold 16px 'Trebuchet MS'; color:#CC0066;margin:15px 1
 .looking-for-box  h4 a{color: #333366; text-decoration: none;}
 .select                 		 {width:240px; margin-right: 10px;}
 .input                  		 {width:30px;}
-.searches                {width:99px; height:30px; text-indent: -9999px; background: url('/static/img/search.png') no-repeat left top;}
+.searches                {width:99px; height:30px; text-indent: -9999px; background: url('../img/search.png') no-repeat left top;}
 .searches span           {display: none;}
 .search-item             { overflow: hidden;display: block; float:left;}
 .search-item  .advanced  {display: block; font-size: 12px; color: #3366CC; margin-top:6px;}
@@ -81,7 +81,7 @@ h4.matches          {font: bold 16px 'Trebuchet MS'; color:#CC0066;margin:15px 1
 .delimetr               {float: left;  width: 10px;   margin-top: 7px;   margin-right: 5px;}
 
 
-.title-sec          {background: url('/static/img/h2.png') repeat-x left center; margin: 15px;}
+.title-sec          {background: url('../img/h2.png') repeat-x left center; margin: 15px;}
 .title-sec a        {font:normal 20px 'trebuchet ms'; color:#333366;background-color: #fff; text-decoration: none; padding-right:10px;  }
 
 
@@ -89,12 +89,12 @@ h4.matches          {font: bold 16px 'Trebuchet MS'; color:#CC0066;margin:15px 1
 .people .match      {float:left; margin:0 30px 40px 0;}
 .people .last-match {margin-right:0;}
 .people .more-descr {margin-top: 8px; color:#666666; font-size: 11px;}
-.people .match a    {display: block;font:bold 14px 'trebuchet ms';text-decoration: none; color:#006699; margin-bottom: 8px; background: url('/static/img/no-active.png') no-repeat right center; }
+.people .match a    {display: block;font:bold 14px 'trebuchet ms';text-decoration: none; color:#006699; margin-bottom: 8px; background: url('../img/no-active.png') no-repeat right center; }
 .people .match a.preview-foto:hover{border:1px solid #bbb;}
 .people .match .preview-foto{padding:5px; border:1px solid #D2D2D2; background:#fff;}
 .people .match a:hover{text-decoration: underline;}
-.people .no-people  {height: 20px; font:14px 'trebuchet ms';padding-left:25px; color:#666666; margin:0 0 20px;background: url('/static/img/help.png') no-repeat left center;  }
-.people .match .active a {background: url('/static/img/user-active.png') no-repeat right center; border:none;}
+.people .no-people  {height: 20px; font:14px 'trebuchet ms';padding-left:25px; color:#666666; margin:0 0 20px;background: url('../img/help.png') no-repeat left center;  }
+.people .match .active a {background: url('../img/user-active.png') no-repeat right center; border:none;}
 
 
 /*footer*/
@@ -116,22 +116,22 @@ h4.matches          {font: bold 16px 'Trebuchet MS'; color:#CC0066;margin:15px 1
 /*gallery*/
 .header-right             { position: absolute; right:0; top: 5px; overflow: hidden;}
 a.head-button             {display: block;font: bold 14px 'Trebuchet MS';  height:30px; line-height: 30px;margin-right: 15px; text-transform: uppercase; text-decoration:none;float:left; padding:0 12px;   color:#fff; text-shadow: 1px 1px 0 #162A40;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
-a.head-button:hover       {  text-shadow:1px 1px 0 #1E3D5E; background: url('/static/img/head-button.png') repeat-x left top;  -webkit-box-shadow: 0 1px 1px #172D44   ; -moz-box-shadow: 0 1px 1px #172D44   ; -ms-box-shadow: 0 1px 1px #172D44   ; box-shadow: 0 1px 1px #172D44   ;}
+a.head-button:hover       {  text-shadow:1px 1px 0 #1E3D5E; background: url('../img/head-button.png') repeat-x left top;  -webkit-box-shadow: 0 1px 1px #172D44   ; -moz-box-shadow: 0 1px 1px #172D44   ; -ms-box-shadow: 0 1px 1px #172D44   ; box-shadow: 0 1px 1px #172D44   ;}
 .gallery .wrap1           {background-color: #EBEBEB; background-image:none;}
 h2.title-page             {font-family: 'Rokkitt', serif; font-size:44px;color:#333366; text-shadow: 1px 1px 0 #FFFFFF;text-align: center; margin:15px 0 15px; font-weight: normal; }
 h2.title-page b           { color:#CC3366; font-weight: normal;}
 .subtitle                 {text-align: center; font:bold 18px 'trebuchet ms'; color:#333366; display: block;text-shadow: 1px 1px 0 #FFFFFF;margin-bottom: 40px;}
 .subtitle b               {color: #CC3366; }
 
-.separator-top            { height:2px; width:100%; background: url('/static/img/separator.png') repeat-x; margin:20px 0;}
+.separator-top            { height:2px; width:100%; background: url('../img/separator.png') repeat-x; margin:20px 0;}
 .separator                {clear:both; height:1px ; width: 100%;background-color:#DBDBDB;margin:20px 0; }
 
 .gallery                  { overflow: hidden; background-color: #EBEBEB;padding-bottom: 20px; }
 .gallery-item             {float: left; margin: 20px 20px 20px 0;}
 .gallery-item .preview-foto{display: block; padding: 5px;  border: 1px solid #D2D2D2;   background-image: none; background-color:#fff;}
 .gallery-item .preview-foto:hover{border: 1px solid #bbb;}
-.gallery-item .active a   {background: url('/static/img/user-active.png') no-repeat left center;   border: none;}
-.gallery-item  a          {padding-left:25px; background: url('/static/img/no-active.png') no-repeat left center; font: bold 14px 'trebuchet ms';  text-decoration: none;  color: #069;    }
+.gallery-item .active a   {background: url('../img/user-active.png') no-repeat left center;   border: none;}
+.gallery-item  a          {padding-left:25px; background: url('../img/no-active.png') no-repeat left center; font: bold 14px 'trebuchet ms';  text-decoration: none;  color: #069;    }
 .gallery-item .name       {margin-bottom:5px;}
 .gallery-item  a:hover    {text-decoration: underline;}
 .gallery-item .more-info   { overflow: hidden; text-align: right; margin-top:6px;font:bold 12px Arial; color:#666666;padding:0 3px;}
@@ -139,13 +139,13 @@ h2.title-page b           { color:#CC3366; font-weight: normal;}
 
 #register                 { top:-800px; position: fixed;z-index:91; width:266px;background-color:#FFFFFF; left:50%; margin-left:-133px;  -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
 #overflow                 {display:none; position:fixed;z-index:90; left:0; top:0; right:0; bottom:0; background-color: rgba(0,0,0,.7); }
-.title-register           {background:url('/static/img/register-title.png') repeat-x left top; padding:0 20px; font:bold 14px 'Trebuchet MS';height:39px; line-height: 39px; color: #CC3366; text-transform: uppercase; text-shadow:1px 1px 0 #FFFFFF;border-bottom: 1px solid #D8D8D8; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+.title-register           {background:url('../img/register-title.png') repeat-x left top; padding:0 20px; font:bold 14px 'Trebuchet MS';height:39px; line-height: 39px; color: #CC3366; text-transform: uppercase; text-shadow:1px 1px 0 #FFFFFF;border-bottom: 1px solid #D8D8D8; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
 .middle-form              { overflow: hidden; padding:5px 20px 20px; -webkit-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;}
 .form-content label   {display: block; margin:15px 0 5px; font:13px Arial; color:#333333;  float:left; }
 .radio-register           {margin:13px 0; overflow: hidden;}
 form.jqtransformdone .radio-register label     {margin:0 0 0 3px;}
 .signup-button,
-.pretty-button            {background:url('/static/img/signup-button.png') repeat-x left top;margin:15px 0;width:220px; border:1px solid #A51948;  font:bold 17px 'Trebuchet MS';text-transform: uppercase; text-align: center; height:38px;line-height: 38px;  color:#fff; text-shadow:1px 1px 0 #842245; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;  }
+.pretty-button            {background:url('../img/signup-button.png') repeat-x left top;margin:15px 0;width:220px; border:1px solid #A51948;  font:bold 17px 'Trebuchet MS';text-transform: uppercase; text-align: center; height:38px;line-height: 38px;  color:#fff; text-shadow:1px 1px 0 #842245; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;  }
 .small-link               {color:#666666;}
 .small-link a             {color:#0066CC; text-decoration: none;}
 .small-link a:hover       {text-decoration: underline;}
@@ -153,26 +153,26 @@ form.jqtransformdone .radio-register label     {margin:0 0 0 3px;}
 
 /*payment*/
 .payment,
-.step                      {width: 100%; background: url('/static/img/body-b.png') repeat left top;}
-.upgrade-inner            {height:99px; background:#fff url('/static/img/upgrade-panel.png') repeat-x left  center; }
+.step                      {width: 100%; background: url('../img/body-b.png') repeat left top;}
+.upgrade-inner            {height:99px; background:#fff url('../img/upgrade-panel.png') repeat-x left  center; }
 .upgrade                  {padding:1px;margin-bottom:20px; position: relative; background-color: #fff; border-bottom:1px solid #CFCFCF;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2);  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2); -ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2); box-shadow: 0 1px 5px rgba(0,0,0,0.2); }
-.left-convert             {font:18px 'Trebuchet MS'; height:63px;padding-top: 15px; line-height: 78px; position: absolute;left:0; top:8px;text-shadow: 1px 1px 0 #FEFEFE; padding-left:70px; background:url('/static/img/convert.png') no-repeat left bottom;  color:#333366; line-height: 1.6 }
+.left-convert             {font:18px 'Trebuchet MS'; height:63px;padding-top: 15px; line-height: 78px; position: absolute;left:0; top:8px;text-shadow: 1px 1px 0 #FEFEFE; padding-left:70px; background:url('../img/convert.png') no-repeat left bottom;  color:#333366; line-height: 1.6 }
 .left-convert b           {color:#CC0066;}
 .right-images             { position: absolute; right:10px; top:12px; overflow: hidden;}
 .right-images img         {float:left; margin-left:5px;}
 .upgrade-main             {background-color: white;-webkit-border-radius: 5px; -moz-border-radius: 5px;  border-radius: 5px; -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2); -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2);  -ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2);  box-shadow: 0 1px 5px rgba(0,0,0,0.2);}
-.top-panel                {height:111px;background:url('/static/img/top-panel.png') repeat-x left top; position: relative;}
+.top-panel                {height:111px;background:url('../img/top-panel.png') repeat-x left top; position: relative;}
 .top-panel-inner          { position: absolute; left:25px; color:#666666; top:10px; text-shadow: 1px 1px 0 #FFFFFF;}
 .top-panel-inner h4       {font:bold 27px 'trebuchet ms'; color:#333366; margin-bottom: 5px;}
-.phone-blocks              { position: absolute;z-index:3; right:15px; top:35px;height:36px; text-align: right; text-shadow: 1px 1px 0 #FFFFFF; padding-right:60px; background: url('/static/img/phone-top.png') no-repeat right center; font-size: 14px; color: #333366;line-height: 1.6;}
+.phone-blocks              { position: absolute;z-index:3; right:15px; top:35px;height:36px; text-align: right; text-shadow: 1px 1px 0 #FFFFFF; padding-right:60px; background: url('../img/phone-top.png') no-repeat right center; font-size: 14px; color: #333366;line-height: 1.6;}
 .phone-blocks b            {font:bold 18px Arial; color:#CC0066;}
-.arrow-top-panel          {width:31px;   height:16px; position: absolute;z-index:4; bottom:0; left:470px;  background: url('/static/img/arrow-top-panel.png') no-repeat left top; }
+.arrow-top-panel          {width:31px;   height:16px; position: absolute;z-index:4; bottom:0; left:470px;  background: url('../img/arrow-top-panel.png') no-repeat left top; }
 
 .left-panel               {width:430px; margin:40px 0 0 40px; float:left;padding-bottom: 100px;}
 .right-panel              {float:right; width:430px; margin:40px 40px 0 0;}
 .feature h3               {font:bold 24px 'trebuchet ms'; color:#CC3366; margin-right:40px; line-height: 1.2; margin-bottom:25px;}
 ul.marked                 {margin:10px 0; padding:0; list-style: none;}
-ul.marked li              {padding:8px 0 8px 29px;font-size: 15px; color:#333333; background: url('/static/img/marked.png') no-repeat left center; }
+ul.marked li              {padding:8px 0 8px 29px;font-size: 15px; color:#333333; background: url('../img/marked.png') no-repeat left center; }
 
 .cards                    {float:left; margin-left:15px;}
 
@@ -184,7 +184,7 @@ ul.marked li              {padding:8px 0 8px 29px;font-size: 15px; color:#333333
 .banner-title span        {display: block; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#96CDF5', endColorstr = '#6EA9DD'); background: -webkit-gradient(linear, left top, left bottom, from(#96CDF5), to(#6EA9DD)); background: -moz-linear-gradient(top, #96CDF5, #6EA9DD); background: -o-linear-gradient(top, #96CDF5, #6EA9DD); background: -ms-linear-gradient(top, #96CDF5, #6EA9DD); background: linear-gradient(top, #96CDF5, #6EA9DD);
 
 }
-.text-banner              { position: relative;height:159px; background:#E8E8E8 url('/static/img/text-banner.png') repeat-x left top; font-size:12px; color:#666666; text-shadow: 1px 1px 0 #fff;
+.text-banner              { position: relative;height:159px; background:#E8E8E8 url('../img/text-banner.png') repeat-x left top; font-size:12px; color:#666666; text-shadow: 1px 1px 0 #fff;
                             border:1px solid #999999; border-width:0 1px 1px 1px ; }
 .text-banner .b-price     {font:bold 14px Arial; color:#333366; line-height: 1.1; text-align: center; position: absolute; top:27px; left:85px;}
 .text-banner .b-price b   {font-size:38px;}
@@ -233,10 +233,10 @@ h2.big-m                    {margin:40px 0 50px;}
 .pretty-button              {width:auto; paddin-right:12px; padding-left:15px;}
 .profile-block              {padding:20px 15px;}
 .profile-block h3           {font-weight: bold; font-size: 12px; margin-bottom: 12px; line-height: 1.1; color:#333365;}
-.progress-bar               {width:180px;float:left; border:1px solid #D3D3D3;height:5px; background:url('/static/img/progress.png') repeat-x left top; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
+.progress-bar               {width:180px;float:left; border:1px solid #D3D3D3;height:5px; background:url('../img/progress.png') repeat-x left top; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
                             border-top-color: #ADADAD; position: relative; margin-bottom:30px;z-index: 2; -webkit-box-shadow: 0 -1px 0 #E2E2E2   ; -moz-box-shadow: 0 -1px 0 #E2E2E2   ; -ms-box-shadow: 0 -1px 0 #E2E2E2   ; box-shadow: 0 -1px 0 #E2E2E2   ;}
 .progress-bar .bar          {position:absolute; z-index: 5; height:5px; border:1px solid #FF3399; border-bottom-color:#A30454; width:50px; -webkit-border-radius: 2px; -moz-border-radius: 2px;; border-radius: 2px;
-                            background: url('/static/img/bar.png') repeat-x left top; left:-1px ; top:-1px; -webkit-box-shadow: 0 -1px 0 #E9B6D0   ; -moz-box-shadow: 0 -1px 0 #E9B6D0   ; -ms-box-shadow: 0 -1px 0 #E9B6D0   ; box-shadow: 0 -1px 0 #E9B6D0   ;}
+                            background: url('../img/bar.png') repeat-x left top; left:-1px ; top:-1px; -webkit-box-shadow: 0 -1px 0 #E9B6D0   ; -moz-box-shadow: 0 -1px 0 #E9B6D0   ; -ms-box-shadow: 0 -1px 0 #E9B6D0   ; box-shadow: 0 -1px 0 #E9B6D0   ;}
 .percent                    {float:left; width:20px; margin-left:10px; font:bold 12px Arial; color:#CB0065; margin-top:-5px; }
 .photo                      {float:left; width: 82px; margin-right:10px;}
 .photos-block                {width:80px; height:82; overflow: hidden;}
@@ -246,7 +246,7 @@ h2.big-m                    {margin:40px 0 50px;}
                             -webkit-box-shadow: 0 -1px 0 #E5E5E5; -moz-box-shadow: 0 -1px 0 #E5E5E5; -ms-box-shadow: 0 -1px 0 #E5E5E5; box-shadow: 0 -1px 0 #E5E5E5;}
 
 .steps                      { position: relative; font: bold 18px 'Trebuchet MS'; text-shadow: 1px 1px 0 #D2D2D2;color:#333333; border-bottom:1px solid #fff; height:50px; line-height:50px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
-                            margin:10px 0 30px; background: url('/static/img/step.png') repeat left top; pos:relative; text-transform: uppercase;
+                            margin:10px 0 30px; background: url('../img/step.png') repeat left top; pos:relative; text-transform: uppercase;
                              -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2); -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2); -ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2); box-shadow: 0 1px 5px rgba(0,0,0,0.2);}
 .step-item                  {backgound-color:transparent; text-align: center;top: 0 ; height:50px;}
 .step-item b                {display: block; width:100%;}
@@ -254,14 +254,14 @@ h2.big-m                    {margin:40px 0 50px;}
 .step2                      { position: absolute; left:312px;  padding-right:23px; width:312px;}
 .step2 span                 {padding-left:22px; display: block;}
 .step3                      { position: absolute; left:646px; padding-left:22px; width:312px;}
-.step1.active               { background: url('/static/img/step-a-right.png') no-repeat right center; }
+.step1.active               { background: url('../img/step-a-right.png') no-repeat right center; }
 .step1.active  b            {-webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px; border-radius: 4px 0 0 4px;}
-.step-item.active b         {background:#F64A8D url('/static/img/step-a.png') repeat-x left bottom; color:#fff; text-shadow: -1px -1px 0 #9F2D58;}
-.step3.active               { background: url('/static/img/step-a-left.png') no-repeat left center; }
+.step-item.active b         {background:#F64A8D url('../img/step-a.png') repeat-x left bottom; color:#fff; text-shadow: -1px -1px 0 #9F2D58;}
+.step3.active               { background: url('../img/step-a-left.png') no-repeat left center; }
 .step3.active b              {-webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0; border-radius: 0 4px 4px 0;}
 
-.step2.active               {background: url('/static/img/step-a-right.png') no-repeat right center;}
-.step2.active span          {background: url('/static/img/step-a-left.png') no-repeat left center;}
+.step2.active               {background: url('../img/step-a-right.png') no-repeat right center;}
+.step2.active span          {background: url('../img/step-a-left.png') no-repeat left center;}
 
 
 /*steps2*/
@@ -270,12 +270,12 @@ h2.big-m                    {margin:40px 0 50px;}
 .left-middle                {float:left;width:205px; text-align: center; margin:0 0 25px; }
 .right-middle               { margin:40px 0 25px 230px; padding-right:30px; overflow: hidden; width:440px;}
 .blue-button                {disaply:block; font:bold 20px 'Trebuchet MS';color:#fff;text-shadow: 1px 1px 0 #6896BB; padding:0 20px; margin:20px 0;   height:48px; line-height: 48px; border:1px solid #6699CC; border-top-color:#7CABD8;
-                            text-decoration: none; background: url('/static/img/blue-button.png') repeat-x left top; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;    }
-.upload                     {display: block; background: url('/static/img/upload.png') no-repeat left top;  height:48px;padding-left:40px;}
+                            text-decoration: none; background: url('../img/blue-button.png') repeat-x left top; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;    }
+.upload                     {display: block; background: url('../img/upload.png') no-repeat left top;  height:48px;padding-left:40px;}
 
-.hint-block                 {padding:13px; background:#F2F2F2 url('/static/img/hint.png') repeat-x left top; border:1px solid #EFEFEF; border-right-color:#E9E9E9; border-left-color: #E9E9E9; boder-top-color:#E4E4E4;
+.hint-block                 {padding:13px; background:#F2F2F2 url('../img/hint.png') repeat-x left top; border:1px solid #EFEFEF; border-right-color:#E9E9E9; border-left-color: #E9E9E9; boder-top-color:#E4E4E4;
                             font: 11px Arial;color:#333333; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 -1px 0 #F6F6F6; -moz-box-shadow: 0 -1px 0 #F6F6F6; -ms-box-shadow: 0 -1px 0 #F6F6F6; box-shadow: 0 -1px 0 #F6F6F6; }
-.main-bottom                {height: 81px; border-top:1px solid #DEDEDE; line-height: 81px; overflow: hidden; background: url('/static/img/main-bottom.png') repeat-x left top;}
+.main-bottom                {height: 81px; border-top:1px solid #DEDEDE; line-height: 81px; overflow: hidden; background: url('../img/main-bottom.png') repeat-x left top;}
 
 .right-suit                 {float:right;padding:0 10px;}
 .main-bottom .pretty-button:hover{  color: #fff; }
@@ -293,16 +293,16 @@ h2.big-m                    {margin:40px 0 50px;}
 
 /*step1*/
 .input-big .fields            {width:110px; font:bold 12px Arial;  float:left;height:31px; line-height:31px;  color:#333333;margin-bottom:20px; }
-.sex                        {width:121px;z-index:1; height:36px; background:url('/static/img/sex.png') no-repeat left top;float:left; margin-top:-5px; position: relative;}
+.sex                        {width:121px;z-index:1; height:36px; background:url('../img/sex.png') no-repeat left top;float:left; margin-top:-5px; position: relative;}
 .sex-f,
 .sex-m,
 .sex-fm                     {width:40px; height:36px; position: absolute; top:0; cursor: pointer;z-index:5;}
 .sex-f                       {width:41px; left:0;}
 .sex-m                      {left:42px;}
 .sex-fm                     {right:0;}
-.sex-f.active               {background: url('/static/img/sex-f.png') no-repeat left top; }
-.sex-m.active               {background: url('/static/img/sex-m.png') no-repeat left top; }
-.sex-fm.active               {background: url('/static/img/sex-fm.png') no-repeat left top; }
+.sex-f.active               {background: url('../img/sex-f.png') no-repeat left top; }
+.sex-m.active               {background: url('../img/sex-m.png') no-repeat left top; }
+.sex-fm.active               {background: url('../img/sex-fm.png') no-repeat left top; }
 
 .pb80                       {padding-bottom:80px;}
 /* ==|== media queries ====================================================== */

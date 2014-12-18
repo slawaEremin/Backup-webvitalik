@@ -1,14 +1,14 @@
 
 /*header*/
-.border-top     {background: url('/static/img/terabum/border-top.png') repeat-x center top;}
-.add-enter      {padding:10px; top:-4px;background: url('/static/img/terabum/top-nav.png') no-repeat center top; }
+.border-top     {background: url('../img/terabum/border-top.png') repeat-x center top;}
+.add-enter      {padding:10px; top:-4px;background: url('../img/terabum/top-nav.png') no-repeat center top; }
 .add-enter  a   {color: #000; border-right-color: #fff; }
 
-.logo           {width:184px; height:62px; background:url('/static/img/terabum/logo.png') no-repeat left top;}
+.logo           {width:184px; height:62px; background:url('../img/terabum/logo.png') no-repeat left top;}
 .order .recieve {color:#ff0000;}
 .order .phone   {color:#670001;font-weight: bold;}
 .phone a        {color:#202121; border-bottom:1px solid #212121;}
-#basket-list    {background: url('/static/img/terabum/basket.png') no-repeat center center;}
+#basket-list    {background: url('../img/terabum/basket.png') no-repeat center center;}
 .detail-basket  {color:#272727;}
 .basket a       {color:#e17a77;}
 .basket-list,
@@ -16,7 +16,7 @@
 .bas-list-item  {color:#fff;}
 .bas-list-item a      {color:#320908;}
 
-.pagination li.current a, .pagination a:hover {background: url('/static/img/terabum/slider-nav.png') no-repeat center center;}
+.pagination li.current a, .pagination a:hover {background: url('../img/terabum/slider-nav.png') no-repeat center center;}
 .menu a span    {text-shadow: 0 1px 0 #940b0a; color: #000;}
 .menu a         {color:#000; }
 .menu a.active span,
@@ -27,10 +27,10 @@
 
 
 /*menu*/
-nav             {background: url('/static/img/terabum/menu.png') no-repeat left top; width:1002px;}
+nav             {background: url('../img/terabum/menu.png') no-repeat left top; width:1002px;}
 .menu-left ,
 .menu-right     {background-image: none;}
-.menu li        {background-image: url('/static/img/terabum/delimetr.png') ;}
+.menu li        {background-image: url('../img/terabum/delimetr.png') ;}
 .menu a:hover,
 .menu a.active  {background-color:#1e1e1e;}
 .menu-items     {border:2px solid #1e1e1e;background-color:#ce2d2a; opacity: 0.95; }
@@ -40,28 +40,28 @@ nav             {background: url('/static/img/terabum/menu.png') no-repeat left 
 .main h3.title, .main h3.title-new {color:#FF0000; border-bottom-color:#232424;}
 .hit-item h4 a                      {color:#080808;}
 .hit-item h4 a:hover                {color:#f60301; }
-.price .in-basket                   {background-image: url('/static/img/terabum/button.png');}
-.right-arrow                        {background-image: url('/static/img/terabum/arrow-right.png')}
-.right-arrow:hover                       {background-image: url('/static/img/terabum/arrow-right.png')}
-.left-arrow                         {background-image: url('/static/img/terabum/arrow-left.png')}
-.left-arrow:hover                         {background-image: url('/static/img/terabum/arrow-left.png')}
+.price .in-basket                   {background-image: url('../img/terabum/button.png');}
+.right-arrow                        {background-image: url('../img/terabum/arrow-right.png')}
+.right-arrow:hover                       {background-image: url('../img/terabum/arrow-right.png')}
+.left-arrow                         {background-image: url('../img/terabum/arrow-left.png')}
+.left-arrow:hover                         {background-image: url('../img/terabum/arrow-left.png')}
 
 .nav-tabs                           {border-bottom-color: #c40c0a;}
 .nav-tabs a                         {color: #252424;}
 .nav-tabs a:hover,
-.nav-tabs a.active                  {color: #fff; background-image: url('/static/img/xdom/tabs.png');}
+.nav-tabs a.active                  {color: #fff; background-image: url('../img/xdom/tabs.png');}
 h2                                  {color:#f60300;  margin-bottom: 10px; line-height: 1.2; padding-bottom: 5px; }
 a                                   {color: #171717;}
 .breadcrumb a:hover, .breadcrumb li.current a{color: #b80200;}
-.back-link                          {background-image: url('/static/img/terabum/back-link.png'); width:107px; height:28px;}
+.back-link                          {background-image: url('../img/terabum/back-link.png'); width:107px; height:28px;}
 .product-desc h1                    {color: #232323;}
 .product-desc .have-product span    {color:#2f9104;}
 .product-desc .price span           {color:#c60202}
 .product-desc .old-price span       {color: #ff6d1f;}
-.product-desc .buy-product          {background-image: url('/static/img/terabum/button-buy.png');}
+.product-desc .buy-product          {background-image: url('../img/terabum/button-buy.png');}
 
 /*footer*/
-footer              {background-image: url('/static/img/terabum/footer.png'); width:1002px;}
+footer              {background-image: url('../img/terabum/footer.png'); width:1002px;}
 .foot-left          {background-image: none;}
 .foot-right         {background-image: none;}
 .bottom-menu h4     {color:#fff; }
@@ -69,5 +69,5 @@ footer              {background-image: url('/static/img/terabum/footer.png'); wi
 .bottom-menu ul a   {color:#000; }
 .bottom-menu .left  {margin-right:15px;}
 
-h4,h5,h3            {color:color: #F60300;}
+h4,h5,h3            {color: #F60300;}
 .content h2         {font-size: 16px;}

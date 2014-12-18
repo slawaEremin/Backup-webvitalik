@@ -86,7 +86,7 @@ ol li{
 ul {list-style:none;}
 	ul li{
 		padding-left:30px;
-		background: url('/static/images/arrow-list.png') left top no-repeat;}
+		background: url('../images/arrow-list.png') left top no-repeat;}
 
 p,dl,hr,ol,ul,pre,table,address,fieldset
 {
